@@ -33,7 +33,7 @@ export default function Contact() {
     setSending(true);
     // Send email via your preferred service (e.g. Resend, SendGrid, EmailJS)
     // Replace this with your own email integration
-    await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+    await fetch('https://formspree.io/f/mzdjkqwr', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
